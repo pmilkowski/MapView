@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maps.Tizen.Mobile.Views.MapWrapper"
+             xmlns:controls="clr-namespace:Maps.Tizen.Mobile.Controls"
+             VerticalOptions="FillAndExpand"
+             HorizontalOptions="FillAndExpand">
+    
+    <controls:MapComponent x:Name="MapComponent"/>
+    
+    <!--<maps:Map VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand"
+              x:Name="MapComponent"
+              IsShowingUser="{Binding IsGPSAvailable}"
+              MapType="Hybrid"
+              HasZoomEnabled="False" />-->
+</ContentView>
